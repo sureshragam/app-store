@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.app-store {
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+.main-heading {
+  margin-top: 70px;
+  font-size: 50px;
+  font-family: 'Bree Serif';
+}
+.input-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 30px;
+}
+.input-tab > input {
+  display: inline-block;
+  height: 30px;
+  width: 250px;
+  border: none;
+  outline: none;
+}
+.input-tab img {
+  display: inline-block;
+  width: 20px;
+  height: 100%;
+  margin-bottom: 0px;
+}
+.tab-item-tab {
+  display: flex;
+}
+.tab-item-tab > li:hover {
+  cursor: pointer;
+}
+.apps-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
